@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="src/script.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+
+</head>
+<body>
+    <div id="back">
+        <div class="backRight"></div>
+        <div class="backLeft"></div>
+    </div>
+
+    <div id="slideBox">
+        <div class="topLayer">
+         <div class="left">
+            <div class="content">
+                <h2>Sing up</h2>
+                <form method="post" onsubmit="return false;">
+                    <div class="form-group">
+                     <input type="text" placeholder="Username">
+                     <input type="text" placeholder="E-mail">
+                     <input type="text" placeholder="Password">
+                     <input type="text" placeholder="Confirm Password">
+                      </div>
+                      <div class="form-group"></div>
+                      <div class="form-group"></div>
+                      <div class="form-group"></div>
+                </form>
+                <button id="goLeft" class="off">Login</button>
+                <button>Sing up</button>
+            </div>
+         </div>
+         <div class="right">
+            <div class="content">
+                <h2>login</h2>
+                <form method="post" onsubmit="return false;">
+                    <div class="form-group">
+                        <input type="text" placeholder="Username">
+                        <input type="text" placeholder="Password">
+                    </div>
+
+                    <button id="goRight" type="submit">Sign Up</button>
+
+                    <button id="login" type="submit">Login</button>
+                </form>
+            </div>
+         </div>
+      </div>
+    </div>
+</body>
+</html>
